@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/styleLog.css">
+    <script src="/js/scriptLog.js"></script>
     <title>Log In</title>
 </head>
 <body>
@@ -21,9 +22,9 @@
     </header>
     <section class="form-login">
         <h5>Formulario Login</h5>
-        <input class="controls" type="text" name="usuario" value="" placeholder="Usuario">
-        <input class="controls" type="password" name="contrasena" value="" placeholder="Contraseña">
-        <input class="buttons" type="submit" name="" value="Ingresar">
+        <input class="controls" type="text" name="email" value="" placeholder="Email" required>
+        <input class="controls" type="password" name="contrasena" value="" placeholder="Contraseña" re>
+        <button class="buttons" type="submit" onclick="validarEmail()">Ingresar</button>
         <input class="buttons" type="submit" name="" value="Registrarse">
         <input class="buttons" type="submit" name="" value="Cancelar">
         <p><a href="#">¿Olvidastes tu Contraseña?</a></p>
