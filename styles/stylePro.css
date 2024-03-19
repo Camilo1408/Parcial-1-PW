@@ -1,0 +1,144 @@
+@font-face {
+    font-family: Open-Sans;
+    src: url(/fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+*{
+    margin: 0%;
+    font-family: Open-Sans;
+}
+
+
+/* Header */
+
+.wrapper{
+    background-color: rgb(158, 73, 237);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.empresa{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+ul li{
+    display: inline-block;
+    padding: 10px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(147, 147, 147);
+}
+/* Text */
+
+.text{
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 25px;
+}
+
+
+/* Productos */
+.bg-gray{
+    background-color: #f3f3f3;
+}
+
+
+.Productos{
+    height: 350px;
+    padding: 15px 80px;
+    display: flex;
+    place-content: space-around;
+}
+
+.oferta-indv{
+    height: 300px;
+    background-color: #ffffff;
+    width: 15%;
+    border-radius: 14px;
+}
+
+.img-producto{
+    max-height: 120px;
+    display: block;
+    margin: auto;
+    width: -webkit-fill-acailable;
+    padding-top: 25px;
+}
+
+.txt-base-carousel-section--discount{
+    font-size: 12px;
+    color: white;
+    background-color:rgb(123, 142, 234) ;
+    border-radius: 6px;
+    padding: 0 10px;
+}
+
+.ml-1{
+    margin-left: 4px;
+}
+
+.float-right{
+    display: flex;
+    float: right;
+}
+
+.mr-2{
+    margin-right: 8px;
+}
+
+.mt-5{
+    margin-top: 20px;
+}
+
+.boton-small{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 4px 12px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+    border-radius: 12px;
+}
+
+.boton-small:hover{
+    cursor: pointer;
+}
+
+.txt-base-carousel-section-price{
+    font-size: 16px !important;
+    text-align: left;
+    color: #222;
+    font-weight: 700;
+}
+
+.txt-base-carousel-section-price label{
+    font-size: 12px !important;
+
+}
+
+.txt-base-carousel-section-price--discount{
+    color: #ef9a9a;
+    text-decoration: line-through;
+}
+
+.boton--primario{
+    background-color: rgb(123, 142, 234);
+}
+
+.title-item{
+    font-size: 16px;
+}

@@ -1,0 +1,67 @@
+@font-face {
+    font-family: Open-Sans;
+    src: url(/fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+*{
+    margin: 0%;
+    font-family: Open-Sans;
+}
+
+
+/* Header */
+
+.wrapper{
+    background-color: rgb(158, 73, 237);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.empresa{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+ul li{
+    display: inline-block;
+    padding: 10px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(147, 147, 147);
+}
+/* Text */
+
+.text{
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 25px;
+}
+
+/* Acordeon */
+.acordeon {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.contenedor {
+    display: none;
+    padding: 10px;
+}
+
+/* Estilos para mostrar/ocultar el contenido */
+.acordeon.active .contenedor {
+    display: block;
+}
